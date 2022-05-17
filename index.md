@@ -5,6 +5,6 @@ Feel free to [donate to me](http://mcdono.jhhspace.xyz/) to support my studies a
 ```markdown
 - MC IP: mc.jhhspace.xyz
 - Port: 25569
-
-Vote for the server [here](https://minecraftservers.org/server/634551)
 ```
+## Server Voting
+Vote for the server [here](https://minecraftservers.org/server/634551)
