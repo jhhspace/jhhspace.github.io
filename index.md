@@ -1,6 +1,6 @@
 ## Welcome to jhh's github page!
 
-Feel free to [donate to me](http://mcdono.jhhspace.xyz/) to support my studies and Server hosting
+Feel free to [donate to me](https://ko-fi.com/shash) to support my studies and Server hosting
 
 ```markdown
 - MC IP: mc.jhhspace.xyz
