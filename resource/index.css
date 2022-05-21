@@ -1,0 +1,190 @@
+/* */
+
+@keyframes html {
+  0%{background-position:0% 100%}
+  100%{background-position:100% 0%}
+}
+
+html {
+
+  margin: 0;
+
+  /* CSS Gradient Background and SVG Image overlay */
+
+  background: linear-gradient(45deg,  #FF5500 0%, #9911FF 100%);
+  animation: html 5s linear infinite alternate;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  400% 400%;
+  background-attachment: fixed;
+
+  /* HTML-Wide declarations */
+  font-size: 5vmin;
+  line-height: 1.25;
+  font-family: "Source Sans Pro", sans-serif;
+  font-kerning: auto;
+  text-align: center;
+
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: url("background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+}
+
+.title-block {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.title {
+  background: #FFFFFF;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 9em;
+  font-weight: 300;
+  margin: 1em auto 0.1em auto;
+  max-width: 9em;
+}
+
+.slogan {
+  background: -webkit-linear-gradient(45deg,  #00FFFF 20%, #00FF00 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+}
+
+.logoWhite {
+  height: 6em;
+  margin:  1em auto 0 auto;
+  display: block;
+}
+
+@keyframes mainButton {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+
+.mainButton {
+  position: relative;
+  top: 50%;
+  background: linear-gradient(45deg,  #ffffff 0%, #ffffff 45%, #ffff99 50%, #ffffff 55%, #929292 100%);
+  background-size: 400% 400%;
+  animation: mainButton 5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 1em;
+  padding: 0 0.3em 0 0.3em;
+  outline: none;
+  margin: 0 auto 0 auto;
+  font: inherit;
+  font-size: 6vmin;
+  font-weight: 300;
+}
+
+.mainButton:hover {
+  font-weight: 400;
+}
+
+.textButton {
+  background: -webkit-linear-gradient(45deg,  #AF0200 20%, #57007F 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  border: none;
+  outline: none;
+  margin: 1em auto 0 auto;
+  font: inherit;
+  font-size: 6vmin;
+  font-weight: 300;
+}
+
+.section {
+  position: relative;
+  top: 100%;
+  height: 100%;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: inherit;
+}
+
+.section-left {
+  background: -webkit-linear-gradient(-45deg,  #ff0000 0%, #000000 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: left;
+  text-align: left;
+  width: calc(100% - 3em);
+  font-weight: 300;
+}
+
+.section-right {
+  background: -webkit-linear-gradient(-45deg,  #000000 60%, #ff0000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: right;
+  text-align: right;
+  width: 90%;
+  font-weight: 300;
+}
+
+.section-left-inverted {
+  background: -webkit-linear-gradient(-45deg,  #00ffff 0%, #ffffff 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: left;
+  text-align: left;
+  width: calc(100% - 3em);
+  font-weight: 300;
+}
+
+.section-right-inverted {
+  background: -webkit-linear-gradient(-45deg,  #ffffff 60%, #00ffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: right;
+  text-align: right;
+  width: 90%;
+  font-weight: 300;
+}
+
+.section-image {
+  height: 40vmin;
+}
